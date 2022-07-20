@@ -1,8 +1,11 @@
 ## KMUTNB Computer Engineering Student
 
 Jedsada Srijunpoe (Tae)
+
 Thailand
+
 Born in 2002
+
 :email: s6401012620170@email.kmutnb.ac.th
 
 ### Education
