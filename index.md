@@ -6,7 +6,7 @@ Thailand
 
 Born in 2002
 
-📧: [s6401012620170@email.kmutnb.ac.th](s6401012620170@email.kmutnb.ac.th)
+📧: [s6401012620170@email.kmutnb.ac.th](mailto:s6401012620170@email.kmutnb.ac.th)
 
 ### Education
 
