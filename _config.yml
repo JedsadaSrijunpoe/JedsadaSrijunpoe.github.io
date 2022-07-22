@@ -1,3 +1,5 @@
 theme: jekyll-theme-midnight
 title: Jedsada Srijunpoe
 description: Bookmark this to keep an eye on my project updates!
+plugins:
+  - jemoji
