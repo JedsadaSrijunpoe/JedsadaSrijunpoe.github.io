@@ -6,6 +6,7 @@ Thailand
 
 Born in 2002
 
+:wave:
 📧 [s6401012620170@email.kmutnb.ac.th](mailto:s6401012620170@email.kmutnb.ac.th)
 
 ![github logo](https://raw.githubusercontent.com/ErickSimoes/email-icon/master/gh.png) [JedsadaSrijunpoe](https://github.com/JedsadaSrijunpoe)
