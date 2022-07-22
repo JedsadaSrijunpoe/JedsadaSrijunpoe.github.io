@@ -18,5 +18,5 @@ Born in 2002
 **Vocational Certificate** | Thai-German Pre-Engineering School | 2018 - 2020
 **Junior High School** | Triamudomsakkapatanakran Nonthaburi School | 2015 - 2017
 
-hello --
+hello -- 
 world
