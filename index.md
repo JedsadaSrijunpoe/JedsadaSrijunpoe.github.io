@@ -6,6 +6,8 @@ Thailand
 
 Born in 2002
 
+[about me](JedsadaSrijunpoe.github.io/about)
+
 :wave:
 :phone:
 📧 [s6401012620170@email.kmutnb.ac.th](mailto:s6401012620170@email.kmutnb.ac.th)
