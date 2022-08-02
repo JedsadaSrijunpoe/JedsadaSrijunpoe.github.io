@@ -6,7 +6,7 @@ Thailand
 
 Born in 2002
 
-[about me](about)
+[about me](https://jedsadasrijunpoe.github.io/about/)
 
 :wave:
 :phone:
