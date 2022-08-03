@@ -15,3 +15,6 @@ Born in 2002
 **Studying Bachelor of Engineering Program in Computer Engineering** | King Mongkut's University of Technology North Bangkok | 2021 - now
 **Vocational Certificate** | Thai-German Pre-Engineering School | 2018 - 2020
 **Junior High School** | Triamudomsakkapatanakran Nonthaburi School | 2015 - 2017
+
+### My blogs
+- [install linux](https://jedsadasrijunpoe.github.io/blogs/install-linux.html)
