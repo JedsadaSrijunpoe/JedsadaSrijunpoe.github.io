@@ -6,7 +6,7 @@ Thailand
 
 Born in 2002
 
-[about me](https://jedsadasrijunpoe.github.io/about.html/)
+[about me](https://jedsadasrijunpoe.github.io/about.html)
 
 [post]({% post_url 2022-08-02-welcome-to-jekyll %})
 
