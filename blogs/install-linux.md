@@ -3,24 +3,24 @@ layout: default
 title: Installing Linux for the first time of my life
 ---
 [« Home](https://jedsadasrijunpoe.github.io/)
-# Install Linux
 
 Hi! In this blog, I will show you how I installed Linux for the first time of my life :D
-- [Install Linux](#install-linux)
-  - [1. Install WSL](#1-install-wsl)
-  - [2. Install ubuntu 22.04](#2-install-ubuntu-2204)
-  - [3. Try using Basic WSL2 Commands](#3-try-using-basic-wsl2-commands)
-    - [Check which version of WSL you are running](#check-which-version-of-wsl-you-are-running)
-    - [Install a specific Linux distribution](#install-a-specific-linux-distribution)
-    - [Unregister or uninstall a Linux distribution](#unregister-or-uninstall-a-linux-distribution)
-  - [4. Try using Bacsic Ubuntu Commands](#4-try-using-bacsic-ubuntu-commands)
-  - [5. Run Linux GUI apps on the Windows Subsystem for Linux](#5-run-linux-gui-apps-on-the-windows-subsystem-for-linux)
-    - [Prerequisites](#prerequisites)
-    - [Run Linux GUI apps](#run-linux-gui-apps)
-      - [Update the packages in your distribution](#update-the-packages-in-your-distribution)
-      - [Install Gedit](#install-gedit)
-      - [Install Nautilus](#install-nautilus)
-## 1. Install WSL
+- [1. Install WSL](#1-install-wsl)
+- [2. Install ubuntu 22.04](#2-install-ubuntu-2204)
+- [3. Try using Basic WSL2 Commands](#3-try-using-basic-wsl2-commands)
+  - [3.1. Check which version of WSL you are running](#31-check-which-version-of-wsl-you-are-running)
+  - [3.2. Install a specific Linux distribution](#32-install-a-specific-linux-distribution)
+  - [3.3. Unregister or uninstall a Linux distribution](#33-unregister-or-uninstall-a-linux-distribution)
+- [4. Try using Bacsic Ubuntu Commands](#4-try-using-bacsic-ubuntu-commands)
+- [5. Run Linux GUI apps on the Windows Subsystem for Linux](#5-run-linux-gui-apps-on-the-windows-subsystem-for-linux)
+  - [5.1. Prerequisites](#51-prerequisites)
+  - [5.2. Run Linux GUI apps](#52-run-linux-gui-apps)
+    - [5.2.1. Update the packages in your distribution](#521-update-the-packages-in-your-distribution)
+    - [5.2.2. Install Gedit](#522-install-gedit)
+    - [5.2.3. Install Nautilus](#523-install-nautilus)
+
+
+# 1. Install WSL
 
 ---
 
@@ -35,7 +35,7 @@ wsl --install
 
 This command will download the latest Linux kernel, set WSL 2 as your default, and install a Linux distribution for you (Ubuntu by default) and then I restarted my PC
 
-## 2. Install ubuntu 22.04
+# 2. Install ubuntu 22.04
 
 ---
 
@@ -51,12 +51,12 @@ I opened it up and created a default UNIX user account
 ![install ubuntu5](/images/Screenshot%202022-08-03%20124923.png)
 ![install ubuntu6](/images/Screenshot%202022-08-03%20125925.png)
 
-## 3. Try using Basic WSL2 Commands
+# 3. Try using Basic WSL2 Commands
 
 ---
 
 I followed [Basic commands for WSL documentation](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
-### Check which version of WSL you are running
+## 3.1. Check which version of WSL you are running
 
 ```shell
 wsl -l -v
@@ -84,7 +84,7 @@ wsl --t "Ubuntu-22.04"
 
 ![wsl basic command3](\images\Screenshot-2022-08-04-212439-wsl-command.png)
 
-### Install a specific Linux distribution
+## 3.2. Install a specific Linux distribution
 
 This command will show you a list of the Linux distributions to install
 
@@ -105,7 +105,7 @@ I try install **Debian**
 ![wsl basic command6](\images\Screenshot-2022-08-04-214334-wsl-command.png)
 ![wsl basic command7](\images\Screenshot-2022-08-04-214406-wsl-command.png)
 
-### Unregister or uninstall a Linux distribution
+## 3.3. Unregister or uninstall a Linux distribution
 
 To unregister and uninstall a WSL distribution:
 
@@ -117,20 +117,20 @@ I try uninstall **Debian**
 
 ![wsl basic command8](\images\Screenshot-2022-08-04-214930-wsl-command.png)
 
-## 4. Try using Bacsic Ubuntu Commands
+# 4. Try using Bacsic Ubuntu Commands
 
 ---
 
 ![Ubuntu Commands1](\images\Screenshot-2022-08-04-224850-ubuntu-commands.png)
 ![Ubuntu Commands1](\images\Screenshot-2022-08-04-225046-ubuntu-commands.png)
 
-## 5. Run Linux GUI apps on the Windows Subsystem for Linux
+# 5. Run Linux GUI apps on the Windows Subsystem for Linux
 
 ---
 
 I followed [this documentations](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
 >Support for GUI apps on WSL does not provide a full desktop experience. It relies on Windows desktop, so installing desktop-focused tools or apps may not be supported.
-### Prerequisites
+## 5.1. Prerequisites
 - You will need to be on Windows 11 Build 22000 or later to access this feature.
 - Installed driver for vGPU
 
@@ -145,12 +145,12 @@ You will need to restart WSL for the update to take effect.
 wsl --shutdown
 ```
 
-### Run Linux GUI apps
-#### Update the packages in your distribution
+## 5.2. Run Linux GUI apps
+### 5.2.1. Update the packages in your distribution
 ```Bash
 sudo apt update
 ```
-#### Install Gedit
+### 5.2.2. Install Gedit
 Gedit is the default text editor of the GNOME desktop environment.
 ```Bash
 sudo apt install gedit -y
@@ -167,11 +167,11 @@ You can run `gedit <file name>` to open or create text file
 ![gedit5](\images\Screenshot-2022-08-05-001027-linux-gui-apps.png)
 ![gedit6](\images\Screenshot-2022-08-05-001237-linux-gui-apps.png)
 
-Open exiting file
+Open existing file
 ![gedit7](\images\Screenshot-2022-08-05-001319-linux-gui-apps.png)
 ![gedit7](\images\Screenshot-2022-08-05-001348-linux-gui-apps.png)
 
-#### Install Nautilus
+### 5.2.3. Install Nautilus
 Nautilus, also known as GNOME Files, is the file manager for the GNOME desktop. (Similar to Windows File Explorer).
 ```Bash
 sudo apt install nautilus -y
