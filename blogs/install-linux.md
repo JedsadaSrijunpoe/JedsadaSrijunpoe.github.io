@@ -5,6 +5,8 @@ title: Installing Linux for the first time of my life
 
 [« Home](https://jedsadasrijunpoe.github.io/)
 
+<h1>Installing Linux for the first time of my life</h1>
+
 Hi! In this blog, I will show you how I installed Linux for the first time of my life :D
 
 - [1. Install WSL](#1-install-wsl)
