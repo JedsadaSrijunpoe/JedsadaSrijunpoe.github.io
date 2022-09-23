@@ -15,7 +15,7 @@ Hi! In this blog, I will show you how I installed Linux for the first time of my
   - [3.1. Check which version of WSL you are running](#31-check-which-version-of-wsl-you-are-running)
   - [3.2. Install a specific Linux distribution](#32-install-a-specific-linux-distribution)
   - [3.3. Unregister or uninstall a Linux distribution](#33-unregister-or-uninstall-a-linux-distribution)
-- [4. Try using Bacsic Ubuntu Commands](#4-try-using-bacsic-ubuntu-commands)
+- [4. Try using Basic Ubuntu Commands](#4-try-using-basic-ubuntu-commands)
 - [5. Run Linux GUI apps on the Windows Subsystem for Linux](#5-run-linux-gui-apps-on-the-windows-subsystem-for-linux)
   - [5.1. Prerequisites](#51-prerequisites)
   - [5.2. Run Linux GUI apps](#52-run-linux-gui-apps)
@@ -61,7 +61,7 @@ I opened it up and created a default UNIX user account
 
 ---
 
-I followed [Basic commands for WSL documentation](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
+I followed this [Basic commands for WSL documentation](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
 
 ## 3.1. Check which version of WSL you are running
 
@@ -109,7 +109,7 @@ To install a specific Linux distribution use this command
 wsl --install -d <Distro>
 ```
 
-I try install **Debian**
+I installed **Debian**
 
 ![wsl basic command5](\images\install-linux\Screenshot-2022-08-04-214251-wsl-command.png)
 ![wsl basic command6](\images\install-linux\Screenshot-2022-08-04-214334-wsl-command.png)
@@ -123,11 +123,11 @@ To unregister and uninstall a WSL distribution:
 wsl --unregister <DistributionName>
 ```
 
-I try uninstall **Debian**
+I uninstalled **Debian**
 
 ![wsl basic command8](\images\install-linux\Screenshot-2022-08-04-214930-wsl-command.png)
 
-# 4. Try using Bacsic Ubuntu Commands
+# 4. Try using Basic Ubuntu Commands
 
 ---
 
