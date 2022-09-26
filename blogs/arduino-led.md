@@ -7,9 +7,13 @@ title: Arduino Programming Problems LED changing patterns
 
 <h1>Arduino Programming Problems LED changing patterns</h1>
 
-<h2>LED changing pattern: A</h2>
-Step 1. Initially, only one LED (at index=0) is ON, and the rest of the LEDs are OFF.  
-Step 2. The position of the ON LED should be moved to the next in a circular manner in a fixed time interval and then repeat Step 2.
+# Problems 1)
+- Write Arduino C/C++ programs that implement the following LED changing patterns (A, B, C, D).
+- Use the Wokwi Simulator first to test your code and then verify the correctness using real hardware.
+
+## LED changing pattern: A
+- Step 1. Initially, only one LED (at index=0) is ON, and the rest of the LEDs are OFF.  
+- Step 2. The position of the ON LED should be moved to the next in a circular manner in a fixed time interval and then repeat Step 2.
 
 ```c++
 #if defined(ESP32)
@@ -38,10 +42,11 @@ void loop() {
 }
 ```
 
-<h2>LED changing pattern: B</h2>
-Step 1. Initially, all LEDs are OFF.  
-Step 2. Turn on the LEDs one by one with a time delay, starting at index=0 until all LEDs are ON.  
-Step 3. If all LEDs are ON, turn off LEDs one by one starting at index=n-1, where n is the total number of LEDs, until all LEDs are OFF, and repeat Steps 2-3.
+![led a](/images/arduino-led/led-a.png)
+## LED changing pattern: B
+- Step 1. Initially, all LEDs are OFF.  
+- Step 2. Turn on the LEDs one by one with a time delay, starting at index=0 until all LEDs are ON.  
+- Step 3. If all LEDs are ON, turn off LEDs one by one starting at index=n-1, where n is the total number of LEDs, until all LEDs are OFF, and repeat Steps 2-3.
 
 ```c++
 #if defined(ESP32)
@@ -72,12 +77,12 @@ void loop() {
   }
 }
 ```
-
-<h2>LED changing pattern: C</h2>
-Step 1. Initially, all LEDs are OFF.  
-Step 2. Turn on the first LED by increasing the duty cycle of the PWM signal driving the LED, until the LED is fully ON.  
-Step 3. Repeat Step 2 with the next LED until all LEDs are fully ON.  
-Step 4. If all LEDs are ON, turn off LEDs one-by-one by decreasing the duty cycles of the PWM signals until all LEDs are OFF and repeat Steps 2-4.
+![led b](/images/arduino-led/led-b.png)
+## LED changing pattern: C
+- Step 1. Initially, all LEDs are OFF.  
+- Step 2. Turn on the first LED by increasing the duty cycle of the PWM signal driving the LED, until the LED is fully ON.  
+- Step 3. Repeat Step 2 with the next LED until all LEDs are fully ON.  
+- Step 4. If all LEDs are ON, turn off LEDs one-by-one by decreasing the duty cycles of the PWM signals until all LEDs are OFF and repeat Steps 2-4.
 
 ```c++
 const int LED_PINS[] = {5,18,19,21};
@@ -118,11 +123,11 @@ void loop() {
   }
 }
 ```
-
-<h2>LED changing pattern: D</h2>
-Step 1. Initially, all LEDs are OFF.  
-Step 2. Turn on the first 4 LEDs using PWM signals, each with different duty cycles (e.g. 100%, 50%, 25%, 10%), and the rest of the LEDs are OFF.  
-Step 3. Move the positions of ON LEDs to the left by one position in a circular manner and repeat Step 3.
+![led c](/images/arduino-led/led-c.png)
+## LED changing pattern: D
+- Step 1. Initially, all LEDs are OFF.  
+- Step 2. Turn on the first 4 LEDs using PWM signals, each with different duty cycles (e.g. 100%, 50%, 25%, 10%), and the rest of the LEDs are OFF.  
+- Step 3. Move the positions of ON LEDs to the left by one position in a circular manner and repeat Step 3.
 
 ```c++
 const int LED_PINS[] = {21, 19, 18, 5, 4, 2, 15, 22};
@@ -158,3 +163,9 @@ void loop() {
   }
 }
 ```
+![led d](/images/arduino-led/led-d.png)
+
+# Problem 2)
+- Reimplement LED changing patterns A and B using the Pin C++ class.
+
+## LED changing pattern: A
