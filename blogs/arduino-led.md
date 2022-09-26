@@ -15,6 +15,8 @@ title: Arduino Programming Problems LED changing patterns
 - Step 1. Initially, only one LED (at index=0) is ON, and the rest of the LEDs are OFF.  
 - Step 2. The position of the ON LED should be moved to the next in a circular manner in a fixed time interval and then repeat Step 2.
 
+<img src='https://github.com/JedsadaSrijunpoe/JedsadaSrijunpoe.github.io/blob/main/images/arduino-led/led-pattern-a.gif?raw=true' alt='LED changing pattern A' />
+
 ```c++
 #if defined(ESP32)
 const int LED_PINS[] = {23,22,32,33,25,26,27,14,12,13};
@@ -61,6 +63,8 @@ Wokwi Simulator for this pattern: https://wokwi.com/projects/342300798050370131
 - Step 2. Turn on the LEDs one by one with a time delay, starting at index=0 until all LEDs are ON.  
 - Step 3. If all LEDs are ON, turn off LEDs one by one starting at index=n-1, where n is the total number of LEDs, until all LEDs are OFF, and repeat Steps 2-3.
 
+<img src='https://github.com/JedsadaSrijunpoe/JedsadaSrijunpoe.github.io/blob/main/images/arduino-led/led-pattern-b.gif?raw=true' alt='LED changing pattern B' />
+
 ```c++
 #if defined(ESP32)
 const int LED_PINS[] = {23,22,32,33,25,26,27,14,12,13};
@@ -102,6 +106,8 @@ Wokwi Simulator for this pattern: https://wokwi.com/projects/342247407381119572
 - Step 2. Turn on the first LED by increasing the duty cycle of the PWM signal driving the LED, until the LED is fully ON.  
 - Step 3. Repeat Step 2 with the next LED until all LEDs are fully ON.  
 - Step 4. If all LEDs are ON, turn off LEDs one-by-one by decreasing the duty cycles of the PWM signals until all LEDs are OFF and repeat Steps 2-4.
+
+<img src='https://github.com/JedsadaSrijunpoe/JedsadaSrijunpoe.github.io/blob/main/images/arduino-led/led-pattern-c.gif?raw=true' alt='LED changing pattern C' />
 
 ```c++
 const int LED_PINS[] = {5,18,19,21};
@@ -151,6 +157,8 @@ Wokwi Simulator for this pattern: https://wokwi.com/projects/342312038793478740
 - Step 1. Initially, all LEDs are OFF.  
 - Step 2. Turn on the first 4 LEDs using PWM signals, each with different duty cycles (e.g. 100%, 50%, 25%, 10%), and the rest of the LEDs are OFF.  
 - Step 3. Move the positions of ON LEDs to the left by one position in a circular manner and repeat Step 3.
+
+<img src='https://github.com/JedsadaSrijunpoe/JedsadaSrijunpoe.github.io/blob/main/images/arduino-led/led-pattern-d.gif?raw=true' alt='LED changing pattern D' />
 
 ```c++
 const int LED_PINS[] = {21, 19, 18, 5, 4, 2, 15, 22};
