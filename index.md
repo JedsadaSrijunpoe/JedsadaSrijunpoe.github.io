@@ -17,3 +17,4 @@ Born in 2002
 
 ## My blogs
 - [Installing Linux for the first time of my life](https://jedsadasrijunpoe.github.io/blogs/install-linux.html)
+- [Arduino Programming Problems](/blogs/arduino-led.md)
