@@ -234,8 +234,8 @@ Wokwi Simulator for this pattern: <https://wokwi.com/projects/343517173322351187
 ---
 
 # Problems 2)
-Reimplement LED changing patterns A and B using the Pin C++ class.
-Generally the [c++ class](https://playground.arduino.cc/Code/Library/) are split into two files.
+Reimplement LED changing patterns A and B using the Pin C++ class.  
+Generally the [C++ class](https://playground.arduino.cc/Code/Library/) are split into two files.
 1. The declaration, referred to as the *header file.* `Pin.h` will indicate that the file declared the class Pin. *Declaration* is the process of defining what the class should do.
 2. The implementation, referred to as the *source file.* `Pin.cpp` indicates that the file implement the declared functions and variables from "Pin.h". *Implementation* is the process of writing the code, that determines how the declared functions are imlemented.
 
@@ -283,7 +283,7 @@ class Pin {
 };
 
 #endif
-///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 
 ```
 
@@ -352,7 +352,7 @@ void Pin::update() {
   }
 }
 
-///////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
 
 ```
 
