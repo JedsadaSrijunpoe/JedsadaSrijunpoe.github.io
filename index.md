@@ -16,5 +16,5 @@ Born in 2002
 **Junior High School** | Triamudomsakkapatanakran Nonthaburi School | 2015 - 2017
 
 ## My blogs
-- [Installing Linux for the first time of my life](https://jedsadasrijunpoe.github.io/blogs/install-linux.html)
+- [Installing Linux for the first time of my life](/blogs/install-linux.md)
 - [Arduino Programming Problems](/blogs/arduino-led.md)
