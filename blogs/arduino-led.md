@@ -16,11 +16,15 @@ title: Arduino Programming Problems
 - [Problems 2)](#problems-2)
   - [LED changing pattern: A](#led-changing-pattern-a-1)
   - [LED changing pattern: B](#led-changing-pattern-b-1)
+
+
 # Problems 1)
 - Write Arduino C/C++ programs that implement the following LED changing patterns (A, B, C, D).
 - Use the Wokwi Simulator first to test your code and then verify the correctness using real hardware.
 
+---
 ## LED changing pattern: A
+
 - Step 1. Initially, only one LED (at index=0) is ON, and the rest of the LEDs are OFF.  
 - Step 2. The position of the ON LED should be moved to the next in a circular manner in a fixed time interval and then repeat Step 2.
 
@@ -67,7 +71,9 @@ I use ESP32 Devkit V1 for this pattern
 
 ![Circuit LED pattern A](/images/arduino-led/led-a.png)
 ![wokwi pattern A](/images/arduino-led/wokwi-led-a.png)
-Wokwi Simulator for this pattern: [https://wokwi.com/projects/342300798050370131](https://wokwi.com/projects/342300798050370131)
+Wokwi Simulator for this pattern: <https://wokwi.com/projects/342300798050370131>
+
+---
 
 ## LED changing pattern: B
 - Step 1. Initially, all LEDs are OFF.  
@@ -113,7 +119,10 @@ void loop() {
 In this pattern, I use Arduino Nano.
 ![Circuit LED pattern B](/images/arduino-led/led-b.png)
 ![wokwi pattern B](/images/arduino-led/wokwi-led-b.png)
-Wokwi Simulator for this pattern: [https://wokwi.com/projects/342247407381119572](https://wokwi.com/projects/342247407381119572)
+Wokwi Simulator for this pattern: <https://wokwi.com/projects/342247407381119572>
+
+---
+
 ## LED changing pattern: C
 - Step 1. Initially, all LEDs are OFF.  
 - Step 2. Turn on the first LED by increasing the duty cycle of the PWM signal driving the LED, until the LED is fully ON.  
@@ -166,8 +175,12 @@ void loop() {
 ```
 ![Circuit LED pattern C](/images/arduino-led/led-c.png)
 ![wokwi pattern C](/images/arduino-led/wokwi-led-c.png)
-Wokwi Simulator for this pattern: [https://wokwi.com/projects/342312038793478740](https://wokwi.com/projects/342312038793478740)
+Wokwi Simulator for this pattern: <https://wokwi.com/projects/342312038793478740>
+
 [How to use LEDC API for ESP32](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html)
+
+---
+
 ## LED changing pattern: D
 - Step 1. Initially, all LEDs are OFF.  
 - Step 2. Turn on the first 4 LEDs using PWM signals, each with different duty cycles (e.g. 100%, 50%, 25%, 10%), and the rest of the LEDs are OFF.  
@@ -216,15 +229,17 @@ void loop() {
 ```
 ![Circuit LED pattern D](/images/arduino-led/led-d.png)
 ![wokwi pattern D](/images/arduino-led/wokwi-led-d.png)
-Wokwi Simulator for this pattern: [https://wokwi.com/projects/343517173322351187](https://wokwi.com/projects/343517173322351187)
+Wokwi Simulator for this pattern: <https://wokwi.com/projects/343517173322351187>
+
+---
 
 # Problems 2)
-- Reimplement LED changing patterns A and B using the Pin C++ class.
+Reimplement LED changing patterns A and B using the Pin C++ class.
 Generally the [c++ class](https://playground.arduino.cc/Code/Library/) are split into two files.
 1. The declaration, referred to as the *header file.* `Pin.h` will indicate that the file declared the class Pin. *Declaration* is the process of defining what the class should do.
 2. The implementation, referred to as the *source file.* `Pin.cpp` indicates that the file implement the declared functions and variables from "Pin.h". *Implementation* is the process of writing the code, that determines how the declared functions are imlemented.
 
-`Pin.h`
+`Pin.h` file:
 ```c++
 #ifndef PIN_H
 #define PIN_H
@@ -272,7 +287,7 @@ class Pin {
 
 ```
 
-`Pin.cpp`
+`Pin.cpp` file:
 
 ```c++
 #include "Pin.h"
@@ -341,6 +356,8 @@ void Pin::update() {
 
 ```
 
+---
+
 ## LED changing pattern: A
 - Step 1. Initially, only one LED (at index=0) is ON, and the rest of the LEDs are OFF.  
 - Step 2. The position of the ON LED should be moved to the next in a circular manner in a fixed time interval and then repeat Step 2.
@@ -379,7 +396,10 @@ void blink( int led_pin = DEFAULT_PIN ) {
 }
 ```
 ![wokwi led cpp class a](/images/arduino-led/wokwi-led-a-cpp-class.png)
-Wokwi Simulator for this pattern: [https://wokwi.com/projects/343940655127462484](https://wokwi.com/projects/343940655127462484)
+Wokwi Simulator for this pattern: <https://wokwi.com/projects/343940655127462484>
+
+---
+
 ## LED changing pattern: B
 - Step 1. Initially, all LEDs are OFF.  
 - Step 2. Turn on the LEDs one by one with a time delay, starting at index=0 until all LEDs are ON.  
@@ -425,4 +445,4 @@ void turn_led_off( int led_pin = DEFAULT_PIN ) {
 }
 ```
 ![wokwi led cpp class b](/images/arduino-led/wokwi-led-b-cpp-class.png)
-Wokwi Simulator for this pattern: [https://wokwi.com/projects/343949402636812884](https://wokwi.com/projects/343949402636812884)
+Wokwi Simulator for this pattern: <https://wokwi.com/projects/343949402636812884>
