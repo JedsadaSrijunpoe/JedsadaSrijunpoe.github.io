@@ -6,7 +6,6 @@ title: Arduino Programming Problems
 [« Home](https://jedsadasrijunpoe.github.io/)
 
 <h1>Arduino Programming Problems</h1>
----
 
 - [Problems 1)](#problems-1)
   - [LED changing pattern: A](#led-changing-pattern-a)
