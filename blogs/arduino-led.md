@@ -17,12 +17,12 @@ title: Arduino Programming Problems
   - [LED changing pattern: A](#led-changing-pattern-a-1)
   - [LED changing pattern: B](#led-changing-pattern-b-1)
 
+---
 
 # Problems 1)
 - Write Arduino C/C++ programs that implement the following LED changing patterns (A, B, C, D).
 - Use the Wokwi Simulator first to test your code and then verify the correctness using real hardware.
 
----
 ## LED changing pattern: A
 
 - Step 1. Initially, only one LED (at index=0) is ON, and the rest of the LEDs are OFF.  
@@ -131,6 +131,9 @@ Wokwi Simulator for this pattern: <https://wokwi.com/projects/342247407381119572
 
 <img src='https://github.com/JedsadaSrijunpoe/JedsadaSrijunpoe.github.io/blob/main/images/arduino-led/led-pattern-c.gif?raw=true' alt='LED changing pattern C' />
 
+> In this pattern, we need to use the duty cycle of the PWM signal.  
+> We can control the duty cycle of the PWM signal by using [LEDC API for ESP32](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html).
+
 Code:
 ```c++
 const int LED_PINS[] = {5,18,19,21};
@@ -176,8 +179,6 @@ void loop() {
 ![Circuit LED pattern C](/images/arduino-led/led-c.png)
 ![wokwi pattern C](/images/arduino-led/wokwi-led-c.png)
 Wokwi Simulator for this pattern: <https://wokwi.com/projects/342312038793478740>
-
-[How to use LEDC API for ESP32](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html)
 
 ---
 

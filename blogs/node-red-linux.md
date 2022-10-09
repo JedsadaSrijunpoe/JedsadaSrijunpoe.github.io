@@ -17,7 +17,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
 ---
 
-- Install curl and Node (v16.x)
+## Install curl and Node (v16.x)
 
 ```ShellSession
 $ sudo apt install -y curl
@@ -39,7 +39,7 @@ $ sudo apt install -y nodejs
 
 ---
 
-- Install [Node-RED locally](https://nodered.org/docs/getting-started/local):
+## Install [Node-RED locally](https://nodered.org/docs/getting-started/local):
 
 ```ShellSession
 $ sudo npm install -g --unsafe-perm node-red
@@ -53,6 +53,8 @@ $ node-red
 
 ![nodered-install-5](/images/node_red/node-red-install-4.png)
 
-- Open in the browser: <http://127.0.0.1:1880/>
+---
+
+## Open in the browser: <http://127.0.0.1:1880/>
 
 ![mynodered1](/images/node_red/mynodered1.png)

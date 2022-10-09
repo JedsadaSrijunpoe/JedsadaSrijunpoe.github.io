@@ -23,10 +23,9 @@ Hi! In this blog, I will show you how I installed Linux for the first time of my
     - [5.2.2. Install Gedit](#522-install-gedit)
     - [5.2.3. Install Nautilus](#523-install-nautilus)
 
+---
 
 # 1. Install WSL
-
----
 
 I followed [Install Linux on Windows with WSL documentation](https://docs.microsoft.com/en-us/windows/wsl/install) to install Linux on Windows with WSL
 
@@ -41,9 +40,9 @@ wsl --install
 
 This command will download the latest Linux kernel, set WSL 2 as your default, and install a Linux distribution for you (Ubuntu by default) and then I restarted my PC
 
-# 2. Install ubuntu 22.04
-
 ---
+
+# 2. Install ubuntu 22.04
 
 I searched *"Ubuntu"* in Microsoft Store and downloaded **Ubuntu 22.04 LTS** because it has 5 stars review :D
 
@@ -57,9 +56,9 @@ I opened it up and created a default UNIX user account
 ![install ubuntu5](/images/install-linux/Screenshot%202022-08-03%20124923.png)
 ![install ubuntu6](/images/install-linux/Screenshot%202022-08-03%20125925.png)
 
-# 3. Try using Basic WSL2 Commands
-
 ---
+
+# 3. Try using Basic WSL2 Commands
 
 I followed this [Basic commands for WSL documentation](https://docs.microsoft.com/en-us/windows/wsl/basic-commands)
 
@@ -127,16 +126,16 @@ I uninstalled **Debian**
 
 ![wsl basic command8](\images\install-linux\Screenshot-2022-08-04-214930-wsl-command.png)
 
-# 4. Try using Basic Ubuntu Commands
-
 ---
+
+# 4. Try using Basic Ubuntu Commands
 
 ![Ubuntu Commands1](\images\install-linux\Screenshot-2022-08-04-224850-ubuntu-commands.png)
 ![Ubuntu Commands1](\images\install-linux\Screenshot-2022-08-04-225046-ubuntu-commands.png)
 
-# 5. Run Linux GUI apps on the Windows Subsystem for Linux
-
 ---
+
+# 5. Run Linux GUI apps on the Windows Subsystem for Linux
 
 I followed [this documentations](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
 
