@@ -32,7 +32,7 @@ I followed [Install Linux on Windows with WSL documentation](https://docs.micros
 
 First, I opened *Windows Command Prompt* with administrator and run this command
 
-```shell
+```PowerShell
 wsl --install
 ```
 
@@ -65,7 +65,7 @@ I followed this [Basic commands for WSL documentation](https://docs.microsoft.co
 
 ## 3.1. Check which version of WSL you are running
 
-```shell
+```PowerShell
 wsl -l -v
 ```
 
@@ -79,7 +79,7 @@ will install for you when you run `wsl --install`
 
 Next, I selected **Ubuntu-22.04** with this command
 
-```shell
+```PowerShell
 wsl -s "Ubuntu-22.04"
 ```
 
@@ -87,7 +87,7 @@ wsl -s "Ubuntu-22.04"
 
 To terminate the specified distribution use this command
 
-```shell
+```PowerShell
 wsl --t "Ubuntu-22.04"
 ```
 
@@ -97,7 +97,7 @@ wsl --t "Ubuntu-22.04"
 
 This command will show you a list of the Linux distributions to install
 
-```shell
+```PowerShell
 wsl -l -o
 ```
 
@@ -105,7 +105,7 @@ wsl -l -o
 
 To install a specific Linux distribution use this command
 
-```shell
+```PowerShell
 wsl --install -d <Distro>
 ```
 
@@ -119,7 +119,7 @@ I installed **Debian**
 
 To unregister and uninstall a WSL distribution:
 
-```shell
+```PowerShell
 wsl --unregister <DistributionName>
 ```
 
@@ -149,13 +149,13 @@ I followed [this documentations](https://docs.microsoft.com/en-us/windows/wsl/tu
 
 If you already have WSL installed on your machine, you can update to the latest version that includes Linux GUI support by running the update command from an elevated command prompt.
 
-```shell
+```PowerShell
 wsl --update
 ```
 
 You will need to restart WSL for the update to take effect.
 
-```shell
+```PowerShell
 wsl --shutdown
 ```
 
@@ -163,7 +163,7 @@ wsl --shutdown
 
 ### 5.2.1. Update the packages in your distribution
 
-```Bash
+```ShellSession
 sudo apt update
 ```
 
@@ -171,7 +171,7 @@ sudo apt update
 
 Gedit is the default text editor of the GNOME desktop environment.
 
-```Bash
+```ShellSession
 sudo apt install gedit -y
 ```
 
@@ -197,7 +197,7 @@ Open existing file
 
 Nautilus, also known as GNOME Files, is the file manager for the GNOME desktop. (Similar to Windows File Explorer).
 
-```Bash
+```ShellSession
 sudo apt install nautilus -y
 ```
 
