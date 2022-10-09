@@ -164,7 +164,7 @@ wsl --shutdown
 ### 5.2.1. Update the packages in your distribution
 
 ```ShellSession
-sudo apt update
+$ sudo apt update
 ```
 
 ### 5.2.2. Install Gedit
@@ -172,7 +172,7 @@ sudo apt update
 Gedit is the default text editor of the GNOME desktop environment.
 
 ```ShellSession
-sudo apt install gedit -y
+$ sudo apt install gedit -y
 ```
 
 ![gedit1](\images\install-linux\Screenshot-2022-08-05-000105-linux-gui-apps.png)
@@ -198,7 +198,7 @@ Open existing file
 Nautilus, also known as GNOME Files, is the file manager for the GNOME desktop. (Similar to Windows File Explorer).
 
 ```ShellSession
-sudo apt install nautilus -y
+$ sudo apt install nautilus -y
 ```
 
 ![nautilus1](\images\install-linux\Screenshot-2022-08-05-003055-nautilus.png)

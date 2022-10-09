@@ -18,3 +18,5 @@ Born in 2002
 ## My blogs
 - [Installing Linux for the first time of my life](/blogs/install-linux.md)
 - [Arduino Programming Problems](/blogs/arduino-led.md)
+- [Install/run Node-RED using Linux](/blogs/node-red-linux.md)
+- [Install/run Node-RED using Docker container](/blogs/node-red-docker.md)
