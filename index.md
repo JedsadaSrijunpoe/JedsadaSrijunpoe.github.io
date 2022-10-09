@@ -20,3 +20,4 @@ Born in 2002
 - [Arduino Programming Problems](/blogs/arduino-led.md)
 - [Install/run Node-RED using Linux](/blogs/node-red-linux.md)
 - [Install/run Node-RED using Docker container](/blogs/node-red-docker.md)
+- [Create a Node-RED flow for publishing and subscribing messages](/blogs/node-red-flow.md)
