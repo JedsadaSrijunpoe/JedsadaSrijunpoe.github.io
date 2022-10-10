@@ -26,6 +26,8 @@ Go to <http://mqtt-explorer.com/>
 Scroll down to the download and download for your platform  
 ![mqtt-explorer-install-2](/images/mqtt_broker/gui_mqtt_client2.png)
 
+---
+
 ## Using MQTT Explorer to connect to a public MQTT broker
 
 Open MQTT Explorer  
@@ -35,10 +37,14 @@ I will use "test.mosquitto.org" as a public MQTT broker which is already created
 Server "test.mosquitto.org" Port 1883 then click connect.  
 ![mqtt-explorer-2](/images/mqtt_broker/gui_mqtt_client5.png)
 
+---
+
 ## Subscribe to a topic
 
 You can search for the topic that you want to subscribe. I use "test/1234/" as a topic.  
 ![mqtt-explorer-3](/images/mqtt_broker/gui_mqtt_client6.png)
+
+---
 
 ## Publish messages to a topic
 
