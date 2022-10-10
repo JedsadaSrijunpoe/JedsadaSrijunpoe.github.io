@@ -21,9 +21,11 @@ I will use **MQTT Explorer** for this blog.
 ## Install MQTT Explorer
 
 Go to <http://mqtt-explorer.com/>  
+
 ![mqtt-explorer-install-1](/images/mqtt_broker/gui_mqtt_client1.png)
 
 Scroll down to the download and download for your platform  
+
 ![mqtt-explorer-install-2](/images/mqtt_broker/gui_mqtt_client2.png)
 
 ---
@@ -31,10 +33,12 @@ Scroll down to the download and download for your platform
 ## Using MQTT Explorer to connect to a public MQTT broker
 
 Open MQTT Explorer  
+
 ![mqtt-explorer-1](/images/mqtt_broker/gui_mqtt_client3.png)
 
-I will use "test.mosquitto.org" as a public MQTT broker which is already created when you open the program.  
+I will use "test.mosquitto.org" as a public MQTT broker which is already created when you open the program.
 Server "test.mosquitto.org" Port 1883 then click connect.  
+
 ![mqtt-explorer-2](/images/mqtt_broker/gui_mqtt_client5.png)
 
 ---
@@ -42,15 +46,18 @@ Server "test.mosquitto.org" Port 1883 then click connect.
 ## Subscribe to a topic
 
 You can search for the topic that you want to subscribe. I use "test/1234/" as a topic.  
+
 ![mqtt-explorer-3](/images/mqtt_broker/gui_mqtt_client6.png)
 
 ---
 
 ## Publish messages to a topic
 
-You can publish messages to a topic by enter the topic that you want to publish messages to.  
+You can publish messages to a topic by enter the topic that you want to publish messages to.
 then, type the messages. You can choose to publish raw text, xml, or json and click publish.  
+
 ![mqtt-explorer-4](/images/mqtt_broker/gui_mqtt_client7.png)
 
 The topic test/1234/msg will appear and you can see the message that you publish.  
+
 ![mqtt-explorer-5](/images/mqtt_broker/gui_mqtt_client8.png)
