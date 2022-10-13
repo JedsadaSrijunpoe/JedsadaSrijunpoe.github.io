@@ -42,6 +42,8 @@ Click Write to install OS image to MicroSD card
 
 ![raspberrypi-5](/images/raspberry_pi/raspberry_pi_5.png)
 
+---
+
 ## Boot the Raspberry Pi (RPi) SBC (operating in headless mode)
 
 Insert microSD card to Raspberry Pi and boot it up. After that we are going to operate in headless mode with SSH. We need to use a computer with the same network as Raspberry Pi and use command `ssh [username]@[hostname]` and enter password 
