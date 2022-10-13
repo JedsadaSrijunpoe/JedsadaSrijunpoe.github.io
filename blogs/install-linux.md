@@ -35,7 +35,7 @@ First, I opened **Windows Command Prompt** with administrator and run this comma
 wsl --install
 ```
 
-![install wsl1](/images/install-linux/Screenshot%202022-07-31%20124136.png)
+![install wsl1](/images/install-linux/Screenshot%202022-07-31%20124136.png)  
 ![install wsl2](/images/install-linux/Screenshot%202022-07-31%20124321.png)
 
 This command will download the latest Linux kernel, set WSL 2 as your default, and install a Linux distribution for you (Ubuntu by default) and then I restarted my PC
@@ -46,14 +46,14 @@ This command will download the latest Linux kernel, set WSL 2 as your default, a
 
 I searched *"Ubuntu"* in Microsoft Store and downloaded **Ubuntu 22.04 LTS** because it has 5 stars review :D
 
-![install ubuntu1](/images/install-linux/Screenshot%202022-08-03%20123001.png)
+![install ubuntu1](/images/install-linux/Screenshot%202022-08-03%20123001.png)  
 ![install ubuntu2](/images/install-linux/Screenshot%202022-08-03%20123024.png)
 
 I opened it up and created a default UNIX user account
 
-![install ubuntu3](/images/install-linux/Screenshot%202022-08-03%20124746.png)
-![install ubuntu4](/images/install-linux/Screenshot%202022-08-03%20124818.png)
-![install ubuntu5](/images/install-linux/Screenshot%202022-08-03%20124923.png)
+![install ubuntu3](/images/install-linux/Screenshot%202022-08-03%20124746.png)  
+![install ubuntu4](/images/install-linux/Screenshot%202022-08-03%20124818.png)  
+![install ubuntu5](/images/install-linux/Screenshot%202022-08-03%20124923.png)  
 ![install ubuntu6](/images/install-linux/Screenshot%202022-08-03%20125925.png)
 
 ---
@@ -110,8 +110,8 @@ wsl --install -d <Distro>
 
 I installed **Debian**
 
-![wsl basic command5](\images\install-linux\Screenshot-2022-08-04-214251-wsl-command.png)
-![wsl basic command6](\images\install-linux\Screenshot-2022-08-04-214334-wsl-command.png)
+![wsl basic command5](\images\install-linux\Screenshot-2022-08-04-214251-wsl-command.png)  
+![wsl basic command6](\images\install-linux\Screenshot-2022-08-04-214334-wsl-command.png)  
 ![wsl basic command7](\images\install-linux\Screenshot-2022-08-04-214406-wsl-command.png)
 
 ## 3.3. Unregister or uninstall a Linux distribution
@@ -130,7 +130,7 @@ I uninstalled **Debian**
 
 # 4. Try using Basic Ubuntu Commands
 
-![Ubuntu Commands1](\images\install-linux\Screenshot-2022-08-04-224850-ubuntu-commands.png)
+![Ubuntu Commands1](\images\install-linux\Screenshot-2022-08-04-224850-ubuntu-commands.png)  
 ![Ubuntu Commands1](\images\install-linux\Screenshot-2022-08-04-225046-ubuntu-commands.png)
 
 ---
@@ -178,18 +178,18 @@ $ sudo apt install gedit -y
 
 Run `gedit` to open Untitled Document text
 
-![gedit2](\images\install-linux\Screenshot-2022-08-05-000531-linux-gui-apps.png)
+![gedit2](\images\install-linux\Screenshot-2022-08-05-000531-linux-gui-apps.png)  
 ![gedit3](\images\install-linux\Screenshot-2022-08-05-000622-linux-gui-apps.png)
 
 You can run `gedit <file name>` to open or create text file
 
-![gedit4](\images\install-linux\Screenshot-2022-08-05-000953-linux-gui-apps.png)
-![gedit5](\images\install-linux\Screenshot-2022-08-05-001027-linux-gui-apps.png)
+![gedit4](\images\install-linux\Screenshot-2022-08-05-000953-linux-gui-apps.png)  
+![gedit5](\images\install-linux\Screenshot-2022-08-05-001027-linux-gui-apps.png)  
 ![gedit6](\images\install-linux\Screenshot-2022-08-05-001237-linux-gui-apps.png)
 
 Open existing file
 
-![gedit7](\images\install-linux\Screenshot-2022-08-05-001319-linux-gui-apps.png)
+![gedit7](\images\install-linux\Screenshot-2022-08-05-001319-linux-gui-apps.png)  
 ![gedit7](\images\install-linux\Screenshot-2022-08-05-001348-linux-gui-apps.png)
 
 ### 5.2.3. Install Nautilus
@@ -204,5 +204,5 @@ $ sudo apt install nautilus -y
 
 To launch, enter: `nautilus`
 
-![nautilus2](\images\install-linux\Screenshot-2022-08-05-003221-nautilus.png)
+![nautilus2](\images\install-linux\Screenshot-2022-08-05-003221-nautilus.png)  
 ![nautilus3](\images\install-linux\Screenshot-2022-08-05-003248-nautilus.png)

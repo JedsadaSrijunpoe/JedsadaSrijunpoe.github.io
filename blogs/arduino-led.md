@@ -69,8 +69,8 @@ const int LED_PINS[] = {2,3,4,5,6,7,8,9,10,11};
 ```
 I use ESP32 Devkit V1 for this pattern
 
-![Circuit LED pattern A](/images/arduino-led/led-a.png)
-![wokwi pattern A](/images/arduino-led/wokwi-led-a.png)
+![Circuit LED pattern A](/images/arduino-led/led-a.png)  
+![wokwi pattern A](/images/arduino-led/wokwi-led-a.png)  
 Wokwi Simulator for this pattern: <https://wokwi.com/projects/342300798050370131>
 
 ---
@@ -116,9 +116,9 @@ void loop() {
   }
 }
 ```
-In this pattern, I use Arduino Nano.
-![Circuit LED pattern B](/images/arduino-led/led-b.png)
-![wokwi pattern B](/images/arduino-led/wokwi-led-b.png)
+In this pattern, I use Arduino Nano.  
+![Circuit LED pattern B](/images/arduino-led/led-b.png)  
+![wokwi pattern B](/images/arduino-led/wokwi-led-b.png)  
 Wokwi Simulator for this pattern: <https://wokwi.com/projects/342247407381119572>
 
 ---
@@ -176,8 +176,8 @@ void loop() {
   }
 }
 ```
-![Circuit LED pattern C](/images/arduino-led/led-c.png)
-![wokwi pattern C](/images/arduino-led/wokwi-led-c.png)
+![Circuit LED pattern C](/images/arduino-led/led-c.png)  
+![wokwi pattern C](/images/arduino-led/wokwi-led-c.png)  
 Wokwi Simulator for this pattern: <https://wokwi.com/projects/342312038793478740>
 
 ---
@@ -228,8 +228,8 @@ void loop() {
   }
 }
 ```
-![Circuit LED pattern D](/images/arduino-led/led-d.png)
-![wokwi pattern D](/images/arduino-led/wokwi-led-d.png)
+![Circuit LED pattern D](/images/arduino-led/led-d.png)  
+![wokwi pattern D](/images/arduino-led/wokwi-led-d.png)  
 Wokwi Simulator for this pattern: <https://wokwi.com/projects/343517173322351187>
 
 ---
@@ -396,7 +396,7 @@ void blink( int led_pin = DEFAULT_PIN ) {
   delay(DELAY_MS);
 }
 ```
-![wokwi led cpp class a](/images/arduino-led/wokwi-led-a-cpp-class.png)
+![wokwi led cpp class a](/images/arduino-led/wokwi-led-a-cpp-class.png)  
 Wokwi Simulator for this pattern: <https://wokwi.com/projects/343940655127462484>
 
 ---
@@ -445,5 +445,5 @@ void turn_led_off( int led_pin = DEFAULT_PIN ) {
   delay(DELAY_MS);
 }
 ```
-![wokwi led cpp class b](/images/arduino-led/wokwi-led-b-cpp-class.png)
+![wokwi led cpp class b](/images/arduino-led/wokwi-led-b-cpp-class.png)  
 Wokwi Simulator for this pattern: <https://wokwi.com/projects/343949402636812884>
