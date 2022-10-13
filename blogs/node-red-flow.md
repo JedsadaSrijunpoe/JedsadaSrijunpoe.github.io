@@ -51,19 +51,19 @@ This JavaScript code is used to convert the incoming payload of the message (msg
 ![mqtt out node](/images/node_red/mynodered11-1.png)
 
 Edit its properties:  
-First, we need to add new MQTT-broker config node by clicking at this pen icon when edit mqtt in node properties.
+First, we need to **add new MQTT-broker config node** by clicking at this *pen icon* when edit mqtt in node properties.
 
 ![add new mqtt-broker1](/images/node_red/mynodered10-2.png)
 
-We will test it by using Mosquitto public MQTT broker "test.mosquitto.org" with port 1883.
+We will test it by using Mosquitto public MQTT broker *"test.mosquitto.org"* with port 1883.
 
 ![add new mqtt-broker2](/images/node_red/mynodered8.png)
 
-Edit mqtt in node properties:
+Edit **mqtt in** node properties:
 
 ![mqtt in node properties](/images/node_red/mynodered11.png)
 
-Edit mqtt out node properties:
+Edit **mqtt out** node properties:
 
 ![mqtt out node properties](/images/node_red/mynodered10.png)
 
@@ -75,6 +75,6 @@ Edit mqtt out node properties:
 
 ![complete flow](/images/node_red/mynodered9.png)
 
-After we wire to connect all node together, we can click to deploy and see the debug output.
+After we wire to connect all node together, we can click to **deploy** and see the **debug output**.
 
 ![debug output](/images/node_red/mynodered16.png)

@@ -29,7 +29,7 @@ Hi! In this blog, I will show you how I installed Linux for the first time of my
 
 I followed [Install Linux on Windows with WSL documentation](https://docs.microsoft.com/en-us/windows/wsl/install) to install Linux on Windows with WSL
 
-First, I opened *Windows Command Prompt* with administrator and run this command
+First, I opened **Windows Command Prompt** with administrator and run this command
 
 ```PowerShell
 wsl --install

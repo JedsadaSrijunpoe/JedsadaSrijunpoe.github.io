@@ -7,7 +7,7 @@ title: GUI-based MQTT client to publish messages or subscribe to a topic
 
 # GUI-based MQTT client to publish messages or subscribe to a topic
 
-In this blog, I will show you how to use GUI-based MQTT client to publish messages or subscribe to a topic.
+In this blog, I will show you how to use **GUI-based MQTT client** to publish messages or subscribe to a topic.
 
 Examples of GUI-based MQTT Apps:
 - [MQTT.fx](https://softblade.de/)

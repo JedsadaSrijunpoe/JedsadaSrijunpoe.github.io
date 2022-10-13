@@ -22,3 +22,4 @@ Born in 2002
 - [Install/run Node-RED using Docker container](/blogs/node-red-docker.md)
 - [Create a Node-RED flow for publishing and subscribing messages](/blogs/node-red-flow.md)
 - [GUI-based MQTT client to publish messages or subscribe to a topic](/blogs/gui-based-mqtt-client.md)
+- [Install Raspberry OS (64-bit) on a MicroSD card and use it to boot the Raspberry Pi](/blogs/install-raspberry-pi-os.md)

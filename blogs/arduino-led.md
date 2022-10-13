@@ -57,12 +57,13 @@ void loop() {
   }
 }
 ```
-In this code, we have defined GPIO pins for Arduino Nano and ESP32 DevKit V1 by using `LED_PINS` array
-If it's ESP32 DevKit V1, we would use these pins
+In this code, we have defined GPIO pins for *Arduino Nano* and *ESP32 DevKit V1* by using `LED_PINS` array
+
+If it's *ESP32 DevKit V1*, we would use these pins
 ```c++
 const int LED_PINS[] = {23,22,32,33,25,26,27,14,12,13};
 ```
-If it's Arduino Nano, we would use these pins
+If it's *Arduino Nano*, we would use these pins
 ```c++
 const int LED_PINS[] = {2,3,4,5,6,7,8,9,10,11};
 ```
@@ -130,7 +131,7 @@ Wokwi Simulator for this pattern: <https://wokwi.com/projects/342247407381119572
 
 <img src='https://github.com/JedsadaSrijunpoe/JedsadaSrijunpoe.github.io/blob/main/images/arduino-led/led-pattern-c.gif?raw=true' alt='LED changing pattern C' />
 
-> In this pattern, we need to use the duty cycle of the PWM signal.  
+> In this pattern, we need to use the *duty cycle of the PWM* signal.  
 > We can control the duty cycle of the PWM signal by using [LEDC API for ESP32](https://espressif-docs.readthedocs-hosted.com/projects/arduino-esp32/en/latest/api/ledc.html).
 
 Code:
@@ -236,8 +237,8 @@ Wokwi Simulator for this pattern: <https://wokwi.com/projects/343517173322351187
 # Problems 2)
 Reimplement LED changing patterns A and B using the Pin C++ class.  
 Generally the [C++ class](https://playground.arduino.cc/Code/Library/) are split into two files.
-1. The declaration, referred to as the *header file.* `Pin.h` will indicate that the file declared the class Pin. *Declaration* is the process of defining what the class should do.
-2. The implementation, referred to as the *source file.* `Pin.cpp` indicates that the file implement the declared functions and variables from "Pin.h". *Implementation* is the process of writing the code, that determines how the declared functions are imlemented.
+1. **The declaration**, referred to as the *header file.* `Pin.h` will indicate that the file declared the class Pin. *Declaration* is the process of defining what the class should do.
+2. **The implementation**, referred to as the *source file.* `Pin.cpp` indicates that the file implement the declared functions and variables from "Pin.h". *Implementation* is the process of writing the code, that determines how the declared functions are imlemented.
 
 `Pin.h` file:
 ```c++

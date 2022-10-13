@@ -7,7 +7,7 @@ title: Install/run Node-RED using Docker container
 
 <h1>Install/run Node-RED using Docker container</h1>
 
-Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+**Node-RED** is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
 
 It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
 
@@ -15,7 +15,7 @@ It provides a browser-based editor that makes it easy to wire together flows usi
 
 # Node-RED Installation using Docker container
 
-A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+**A container** is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 > To run a **Docker image**, a **Docker Engine** must be installed on Ubuntu.  
 > Instructions for installing the Docker Engine on Ubuntu:  
